@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #35D4A0;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.tab-area {
+  height: 30px;
+  width: 500px;
+  margin: auto;
+  position: relative;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+a {
+  vertical-align: bottom;
+  background: #207F60;
+  color: #60D4AE;
+  text-decoration: none;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  position: relative;
+  top: 0.5px;
+}
+
+.active {
+  background-color: #007046;
+}
+
+.tab-content {
+  border: 1px solid;
+  border-top: none;
+  padding: 15px;
+  background: #207F60;
+  color: #60D4AE;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.active-tab {
+  display: block !important;
+}
+
+.tab-content p {
+  display: none;
+}
+
+input {
+  border-color: #ccc;
+  border-radius: 3px;
+  outline: none;
+}
+
+.reg-form {
+  margin-top: 15px;
+}
+
+.reg-row label {
+  display: inline-block;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.hint {
+  display: inline-block;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 3px;
+  margin-left: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  opacity: 0;
+}
+
+input[type='button'] {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6bba70+0,6bba70+100;Green+Flat+%234 */
+background: rgb(107,186,112); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(107,186,112,1) 0%, rgba(107,186,112,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(107,186,112,1) 0%,rgba(107,186,112,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(107,186,112,1) 0%,rgba(107,186,112,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bba70', endColorstr='#6bba70',GradientType=0 ); /* IE6-9 */
+//border: none;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+  border-color: grey;
+}
