@@ -1,0 +1,132 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+.wrapper-carousel {
+  width: 780px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.wrapper-carousel h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.carousel-list {
+  list-style: none;
+  width: 10000px;
+  position: relative;
+}
+
+.carousel-element {
+  display: block;
+  margin-right: 25px;
+  float: left;
+}
+
+.carousel-element img {
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-hider {
+  width: 650px;
+  overflow: hidden;
+  float: left;
+}
+
+.carousel-arrow-left {
+  background: url(../images/arrow.png);
+  background-position: 0 0;
+}
+
+.carousel-arrow-left:hover {
+  background-position: -50px 0;
+}
+
+.carousel-arrow-right {
+  background: url(../images/arrow.png);
+  background-position: 0 -50px;
+}
+
+.carousel-arrow-right:hover {
+  background-position: -50px -50px;
+}
+
+.carousel-element p {
+  text-align: center;
+}
+
+.carousel-arrow-left,
+.carousel-arrow-right {
+  float: left;
+  display: block;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 50px;
+  margin-top: 25px;
+}
+
+.carousel-arrow-left:hover,
+.carousel-arrow-right:hover {
+  cursor: pointer;
+}
+
+.carousel-arrow-left {
+  margin-right: 25px;
+}
+
+.carousel-arrow-right {
+  margin-left: 25px;
+}
+
+
+/* PROFILE */
+
+.profile {
+  clear: left;
+  padding-top: 50px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile h1 {
+  font-weight: bold;
+}
+
+.profile img {
+  padding-top: 20px;
+  margin: auto;
+  width: 20%;
+}
+
+
+.profile h2 {
+  padding-top: 40px;
+}
+
+.profile p {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.profile ul {
+  list-style: disc;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.profile ul li {
+  padding-top: 10px;
+  text-align: left;
+}
