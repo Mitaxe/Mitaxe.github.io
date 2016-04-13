@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JS 6</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/fm.checkator.jquery.css">
+  <link rel="stylesheet" href="css/nice-select.css">
+  <link rel="stylesheet" href="css/jcarousel.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="js/jcarousel.js"></script>
+  <script src="js/jquery_nuce_select.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/fm.checkator.jquery.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/color/jquery.color-2.1.2.js"></script>
+</head>
+<body>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">О нас</a></li>
+      <li class="dropdown">
+        <a href="#">Товары</a>
+        <ul class="submenu">
+          <li><a href="#">Одежда</a></li>
+          <li class="dropdown">
+            <a href="#">Аксессуары</a>
+            <ul class="submenu">
+              <li><a href="#">Часы</a></li>
+              <li><a href="#">Зонтики</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li><a href="#">Цены</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+
+  </div>
+  <header>
+    <h1>Beautiful Slider</h1>
+  </header>
+  <div class="jcarousel-wrapper">
+    <div class="jcarousel" data-jcarousel="true">
+      <ul>
+        <li><img src="images/1.jpg" alt="first_slide"></li>
+        <li><img src="images/2.jpg" alt="second_slide"></li>
+        <li><img src="images/3.jpg" alt="third_slide"></li>
+      </ul>
+    </div>
+    <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+    <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+  </div>
+  <div class="form-wrapper">
+    <form action="" method="post">
+      <select>
+        <option value="1">Some option</option>
+        <option value="2">Another option</option>
+        <option value="3">One more</option>
+        <option value="4">Potato</option>
+      </select>
+      <br>
+      <br>
+      <br>
+      <input type="checkbox" name="checkbox1_1" class="checkator" id="checkbox1_1">
+      <label for="checkbox1_1">Choice 1</label>
+      <br>
+      <input type="checkbox" name="checkbox1_2" class="checkator" id="checkbox1_2">
+      <label for="checkbox1_2">Choice 2</label>
+      <br>
+      <input type="checkbox" name="checkbox1_3" class="checkator" id="checkbox1_3">
+      <label for="checkbox1_3">Choice 3</label>
+      <br>
+      <input type="checkbox" id="test-check1" class="default_checkbox" />
+      <label for="test-check1" class="default_label">Default:</label>
+    </form>
+  </div>
+</body>
+
+</html>
