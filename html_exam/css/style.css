@@ -22,6 +22,9 @@
 
 header {
   padding-top: 65px;
+  height: 100px;
+  position: relative;
+  z-index: 9999;
 }
 
 .menu_mobile {
