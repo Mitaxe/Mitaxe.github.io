@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Riffsy API</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="js/tmpl.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <h1>Riffsy pictures</h1>
+  <div class="search-form">
+    <form action="" method="post">
+      <input type="text">
+      <a href="#" class="button pink">Search</a>
+    </form>
+
+  </div>
+  <script type="text/template" id='riffsy'>
+    <div class="riffsy-result">
+      <% for(var i = 0; i < 30; i ++) { %>
+        <img src="<%=data.results[i].url%>">
+        <% } %>
+    </div>
+  </script>
+</body>
+
+</html>
