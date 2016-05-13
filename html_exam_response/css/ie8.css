@@ -1,0 +1,680 @@
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('../fonts/leaguegothic-webfont.eot');
+    src: url('../fonts/leaguegothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-webfont.woff2') format('woff2'),
+         url('../fonts/leaguegothic-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../fonts/opensans-extrabold-webfont.eot');
+    src: url('../fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
+         url('../fonts/opensans-extrabold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.head-background {
+  background: url(../images/head-bg.jpg) center 0;
+}
+
+body {
+   min-width: 960px;
+}
+
+
+/*========== HEADER ========== */
+
+.header {
+  padding-top: 65px;
+  height: 100px;
+  position: relative;
+  z-index: 9999;
+  max-width: 960px;
+  margin: auto;
+  padding-bottom: 160px;
+}
+
+ .menu {
+    float: right;
+ }
+
+.menu__item {
+  display: inline-block;
+  margin-left: 37px;
+  margin-top: 5px;
+}
+
+.menu__item a {
+  font-family: "league_gothicregular";
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu__item a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.menu__item:hover {
+  border-bottom: 3px solid #edbfff;
+}
+
+
+/*========== SLIDER ========== */
+
+.slider__background {
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#2c000000', endColorstr='#2c000000'); /* IE */
+
+  height: 400px;
+}
+
+.slider__body__text {
+  float: left;
+}
+
+.slider__body {
+    max-width: 960px;
+    margin: auto;
+}
+
+.slider__body__text {
+    padding-top: 70px;
+    width: 55%;
+  }
+
+.slider__body__text {
+    padding-top: 70px;
+    width: 55%;
+  }
+  .slider__body__text h1 {
+    font-size: 60px;
+  }
+  .slider__body__text h2 {
+    font-size: 32px;
+  }
+  .slider__body__text p {
+    font-size: 18px;
+    padding-top: 10px;
+    overflow: visible;
+  }
+  .slider__body__image img {
+    position: relative;
+    right: 70px;
+    top: -20px;
+  }
+
+.slider__body__text h1 {
+  font-family: "league_gothicregular";
+  color: #fefefe;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.slider__body__text h2 {
+  font-family: "league_gothicregular";
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  color: #edbfff;
+}
+
+.slider__body__text p {
+  font-family: "open_sanslight";
+  color: #ffffff;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  line-height: 1.6;
+}
+
+.slider__body__image {
+  float: right;
+}
+
+
+/*========== NAVIGATION ========== */
+.navigation__block {
+    max-width: 960px;
+    margin: auto;
+    height: 168px;
+  }
+  .navigation {
+    position: absolute;
+    right: 180px;
+    top: 100px;
+  }
+
+.navigation__block {
+  position: relative;
+}
+
+.navigation__item {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5c000000', endColorstr='#5c000000'); /* IE */
+  cursor: pointer;
+  position: relative;
+}
+
+.navigation__item a.active {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d4d4d4+100 */
+  background: rgb(255, 255, 255);
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4', GradientType=0);
+  /* IE6-9 */
+}
+
+.navigation__item:first-child + * {
+  position: relative;
+  top: 15px;
+} 
+
+
+/*========== ABOUT ========== */
+
+.about__block {
+    max-width: 960px;
+    margin: auto;
+  }
+  .about__block__item {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    width: 280px;
+  }
+  .about__block__item h1 {
+    font-size: 30px;
+  }
+  .about__block__item p {
+    font-size: 16px;
+    padding-top: 7px;
+    padding-left: 49px;
+    overflow: visible;
+  }
+  .about__block__item a {
+    font-size: 18px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .key,
+  .about,
+  .music {
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .about {
+    background-position: right;
+  }
+  .music {
+    background-position: center;
+  }
+.about__background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#745083+0,322539+100 */
+  background: rgb(116, 80, 131);
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(116, 80, 131, 1) 0%, rgba(50, 37, 57, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(116, 80, 131, 1) 0%, rgba(50, 37, 57, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(116, 80, 131, 1) 0%, rgba(50, 37, 57, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#322539', GradientType=0);
+  /* IE6-9 */
+  overflow: hidden;
+  text-align: center;
+  border-top: 1px solid;
+}
+
+.about__block__item {
+  display: inline-block;
+  text-align: left;
+}
+
+.about__block__item h1 {
+  font-family: "league_gothicregular";
+  color: #fff;
+  text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.4);
+}
+
+.about__block__item p {
+  font-family: "open_sanslight";
+  text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.4);
+  color: #fff;
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+.about__block__item a {
+  font-family: "league_gothicregular";
+  text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.4);
+  color: #fff;
+  text-decoration: none;
+  float: right;
+}
+
+.about__block__item a:hover {
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+}
+
+.key,
+.about,
+.music {
+  width: 30px;
+  height: 25px;
+  float: left;
+  background: url(../images/sprite.png);
+}
+
+
+/*.key {}*/
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+
+/*========== POST ========== */
+
+.post__background {
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+
+.post__block {
+  padding-left: 25px;
+  overflow: hidden;
+}
+
+.left__block__side {
+  float: left;
+}
+
+.post__block__left {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.post__block__left h1:before {
+  content: url(../images/man.png);
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  top: -7px;
+  left: -65px;
+}
+
+.post__block__left h1 {
+  font-family: "league_gothicregular";
+  color: #454545;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+  position: relative;
+}
+
+.post__block__left h1 span {
+  color: #edbfff;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+ 
+}
+
+blockquote p {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: "open_sanslight";
+  line-height: 1.6;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+  color: #454545;
+}
+
+.post__navigation {
+  text-align: center;
+}
+
+.navigation__item__post {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.navigation__item__post a.active {
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 15px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border: 1px solid;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6a6a6a+0,454545+100 */
+  background: rgb(106, 106, 106);
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(106, 106, 106, 1) 0%, rgba(69, 69, 69, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(106, 106, 106, 1) 0%, rgba(69, 69, 69, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(106, 106, 106, 1) 0%, rgba(69, 69, 69, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#6a6a6a', endColorstr='#454545', GradientType=0);
+  /* IE6-9 */
+}
+
+.navigation__item__post:first-child + * {
+   position: relative;
+   top: 15px;
+}
+
+.post__block__right h1 {
+  font-family: "league_gothicregular";
+  color: #454545;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+  padding-bottom: 12px;
+}
+
+.post__image {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  float: left;
+  clear: left;
+}
+
+.first {
+  background-position: left;
+}
+
+.second {
+  background-position: center;
+}
+
+.third {
+  background-position: right;
+}
+
+.post__content {
+  margin-top: 5px;
+}
+
+.post__content h2 {
+  font-family: "open_sansextrabold";
+  color: #454545;
+}
+
+.post__content p {
+  font-family: "open_sanslight";
+  padding-top: 7px;
+  padding-bottom: 15px;
+}
+
+.post__block__right a {
+  float: right;
+  font-family: "league_gothicregular";
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+  color: #454545;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+
+  .post__block__left:after {
+    content: url(../images/quote.png);
+    position: absolute;
+    bottom: -24px;
+    right: 30px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  }
+  .post__block {
+    max-width: 960px;
+    margin: auto;
+  }
+  .left__block__side h1 {
+    font-size: 30px;
+    overflow: visible;
+    width: 100%;
+  }
+  blockquote {
+    font-size: 16px;
+    padding-top: 7.5px;
+    padding-top: 15px;
+  }
+  .post__block__left {
+    width: 360px;
+  }
+  .post__navigation {
+    width: 440px;
+    padding-top: 40px;
+  }
+  .post__block {
+    padding-top: 107px;
+    padding-bottom: 65px;
+  }
+  .post__block__right {
+    float: right;
+    margin-top: 30px;
+  }
+  .first {
+    background: url(../images/post_icon.png);
+    background-position: left;
+  }
+  .second {
+    background: url(../images/post_icon.png);
+    background-position: center;
+  }
+  .third {
+    background: url(../images/post_icon.png);
+    background-position: right;
+  }
+  .post__block__right {
+    width: 48%;
+  }
+  .post__block__right h1 {
+    font-size: 30px;
+    width: 100%;
+  }
+  .post__content h2 {
+    font-size: 16px;
+  }
+  .post__content p {
+    font-size: 16px;
+    overflow: visible;
+    width: 100%;
+  }
+  .post__block__right a {
+    padding-top: 7px;
+    padding-right: 20px;
+  }
+
+/*========== LOGO ========== */
+
+.logo__background {
+  background-color: #f9f9f9;
+  border-top: 1px solid #fff;
+  outline: 1px solid #e6e6e6;
+}
+
+#logo5 {
+  position: relative;
+  top: -20px;
+}
+
+.logo__block {
+    max-width: 960px;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 32px;
+  }
+  .logo {
+    text-align: center;
+  }
+  .logo__item {
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+
+/*========== COMMENTS ========== */
+
+.comments__background {
+  background-color: #ececec;
+  overflow: hidden;
+}
+
+.comments__block {
+  text-align: center;
+}
+
+.comments__block__item {
+  display: inline-block;
+  text-align: left;
+}
+
+.comments__block__item h2 {
+  font-family: "Georgia";
+  color: #c5c5c5;
+  font-style: italic;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+  padding-top: 18px;
+  padding-bottom: 8px;
+}
+
+.comments__block__item p {
+  font-family: "open_sanslight";
+  color: #787878;
+  line-height: 1.5;
+}
+
+.comments__block__item h1 {
+  font-family: "league_gothicregular";
+  color: #454545;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+  padding-bottom: 5px;
+}
+
+.comments__block {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .comments__block img,
+  .comments__block h2,
+  .comments__block h1 {
+    display: block;
+  }
+  .comments__block__item:before {
+    content: '';
+  }
+  .comments__block__item {
+    width: 30%;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  .comments__block__item h2 {
+    font-size: 16px;
+  }
+  .comments__block__item p {
+    font-size: 16px;
+    overflow: visible;
+  }
+  .comments__block__item h1 {
+    font-size: 30px;
+  }
+
+
+/*========== FOOTER ========== */
+
+.footer {
+  background: url(../images/footer-bg.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.footer__menu {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  float: left;
+}
+
+.footer__menu__item {
+  display: inline-block;
+}
+
+.footer__menu__item a {
+  font-family: "league_gothicregular";
+  color: #fff;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  margin-right: 35px;
+}
+
+.footer__copyright {
+  float: right;
+  padding-top: 40px;
+}
+
+.footer__copyright h3 {
+  font-family: "open_sanslight";
+  color: #fff;
+  font-size: 12px;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.footer__copyright h3 span {
+  font-family: "open_sansextrabold";
+  color: #fff;
+}
+
+  .footer__block {
+    max-width: 960px;
+    margin: auto;
+  }
+  .footer__menu__item a {
+    font-size: 20px;
+  }
+  .footer__copyright {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
