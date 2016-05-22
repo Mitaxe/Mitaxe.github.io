@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>To-Do-List</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <script data-main='js/app' src="js/require.js"></script>
+</head>
+
+<body>
+  <h1>To-Do-List</h1>
+  <div class="content">
+    <script type="text/template" id="wrapper-template">
+      <div class="wrapper">
+        <ul class="item__list"></ul>
+      </div>
+      <div class="controlls">
+        <input type="text" class="item-value">
+        <button>Add</button>
+      </div>
+    </script>
+    <script type="text/template" id="list-template">
+      <% for(var i=0; i<data.length; i++) { %>
+        <li>
+          <%= data[i] %>
+            <span data-value="<%= data[i] %>" class="delete-item"> x</span>
+            <input type="button" value="Edit" class="editBtn">
+            <input type="text" class="edit-value" maxlength=90>
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+        </li>
+        <% } %>
+    </script>
+  </div>
+</body>
+
+</html>
