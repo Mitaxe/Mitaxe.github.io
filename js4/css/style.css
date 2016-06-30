@@ -1,0 +1,44 @@
+body {
+  background: #283B67 !important;
+}
+
+header {
+  text-align: center;
+  padding-top: 50px;
+}
+
+main {
+  padding-top: 250px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 72px !important;
+  color: white !important;
+
+}
+
+h2 {
+  display: inline-block;
+  font-size: 48px !important;
+  color: white !important;
+}
+
+button {
+  outline: none !important;
+  
+}
+
+.btn-group {
+
+}
+
+#stop {
+  display: none;
+}
+
+#stop,#start {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  width: 63px;
+}

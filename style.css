@@ -194,7 +194,7 @@ header {
     padding-top: 50px; }
   .comments__block__left .jan1, .comments__block__right .jan1, .comments__block__left .jan2, .comments__block__right .jan2 {
     margin-top: 40px;
-    background: url(images/jan.png);
+    background: url(../images/jan.png);
     width: 167px;
     height: 150px;
     position: relative;

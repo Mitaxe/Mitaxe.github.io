@@ -1,0 +1,141 @@
+body {
+    background: #f9f9f9;
+}
+
+.background {
+    width: 1060px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    min-width: 1060px;
+    background: white;
+    padding-bottom: 60px;
+}
+
+.container {
+    position: relative;
+    left: 50px;
+}
+
+header {
+    padding-top: 50px;
+}
+
+.menu {
+    margin-top: 40px;
+    width: 968px;
+    background: linear-gradient(to top, #444343, #5e5e5e);
+}
+
+.menu li {
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+    font-family: 'Open Sans';
+    border: 1px solid transparent;
+}
+
+.menu li:first-child {
+    padding-left: 30px;
+}
+
+.menu li:hover {
+    background-color: white;
+    cursor: pointer;
+    background: linear-gradient(to top, #2e2e2e, #4a4a4a);
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-left-color: #838383;
+    border-right-color: #838383;
+}
+
+.left-menu {
+    padding-top: 40px;
+    float: left;
+}
+
+.left-menu li {
+    width: 244px;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-bottom: 13px;
+    font-family: 'Open Sans';
+    color: #656363;
+    font-size: 13px;
+    border: 1px solid #c8c8c8;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+
+.left-menu li:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+    display: inline-block;
+    text-indent: 15px;
+    color: #2c2c2c;
+}
+
+.right-content {
+    padding-top: 40px;
+}
+
+.right-content div {
+    width: 680px;
+    line-height: 400px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 20px;
+    border: 1px solid #c8c8c8;
+}
+
+p {
+    padding-top: 35px;
+    clear: both;
+    padding-left: 310px;
+    padding-right: 100px;
+    font-size: 13.33px;
+    color: #2c2c2c;
+    font-size: 13.33px;
+    font-family: "Open Sans";
+    line-height: 1.6;
+}
+
+.bike {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer {
+    margin-top: 60px;
+    background: #e1e1e1;
+    width: 965px;
+}
+
+footer li {
+    display: inline-block;
+    padding-left: 80px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+footer li:first-child {
+    padding-left: 30px;
+}
+
+footer li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer li:last-child {
+    float: right;
+    padding-right: 25px;
+    cursor: text;
+    text-decoration: none;
+}
