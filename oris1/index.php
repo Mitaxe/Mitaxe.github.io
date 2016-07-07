@@ -1,3 +1,7 @@
+<?php 
+   include 'send.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -278,23 +282,23 @@
 
 			<div class="row marginbot-80">
 				<div class="col-md-8 col-md-offset-2">
-						<form id="contact-form">
+						<form action="send.php" method="post" id="contact-form">
 						<div class="row marginbot-20">
 							<div class="col-md-6 xs-marginbot-20">
-								<input type="text" class="form-control input-lg" id="name" placeholder="Ваше имя" required="required" />
+								<input type="text" class="form-control input-lg" id="name" placeholder="Ваше имя" required="required" name='name' />
 							</div>
 							<div class="col-md-6">
-								<input type="email" class="form-control input-lg" id="email" placeholder="Ваш E-mail" required="required" />
+								<input type="email" class="form-control input-lg" id="email" placeholder="Ваш E-mail" required="required" name='email' />
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
 			
 								<div class="form-group">
-									<textarea name="message" id="message" class="form-control" rows="4" cols="25" required="required"
+									<textarea name="message" id="message" class="form-control" rows="4" cols="25" required="required" name='text'
 										placeholder="Сообщение"></textarea>
 								</div>						
-								<button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs">
+								<button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs" name='send'>
 									Отправить сообщение</button>
 							</div>
 						</div>
